@@ -5,11 +5,10 @@ import java.util.Map;
 
 public class DuplicateCharacters {
 
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {	
 		
 		//Method 1 - using HashMap 
-		String str = "Mathew Jonass".toLowerCase();
+		String str = "Mathew Jonas".toLowerCase();
 		char arr[]=str.toCharArray();
 		Map<Character,Integer> map = new LinkedHashMap();
 		for(char ch : arr) {
@@ -26,8 +25,8 @@ public class DuplicateCharacters {
 		}
 		System.out.println("the duplicate characters are " + map);
 		
-		
 		/*
+		
 		//using nested for loop
 		
 		String str = "Mathews jonas";
@@ -47,11 +46,13 @@ public class DuplicateCharacters {
 	}
 		System.out.println("duplicate character count is :"+ count);
 	}
+           */
+
+		
+	}
+	
 }
 
-		*/
-	}
-}
 
 
 
