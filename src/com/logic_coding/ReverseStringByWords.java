@@ -8,25 +8,21 @@ public class ReverseStringByWords {
 		String str = "Mathew is working at Simplilearn";
 		String[] words = str.split(" ");
 		String result = "";
-		for(String word:words)
-		{
+		for (String word : words) {
 
-		String revWord="";
+			String revWord = "";
 
-		for(int i=word.length()-1;i>=0;i--)
-		{
+			for (int i = word.length() - 1; i >= 0; i--) {
 
-		revWord+=word.charAt(i);
+				revWord += word.charAt(i);
 
-		}
+			}
 
-		result=result+revWord+" ";
+			result = result + revWord + " ";
 
 		}
 
 		System.out.println(result);
-		}
-
 	}
 
-
+}
