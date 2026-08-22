@@ -19,6 +19,14 @@ public class SumofNumberofDigits {
 		}
 		System.out.println("the sum of number of digits is "+sum);
 		
+		//sum of digits in an array
+		
+		int ar[] = {1,2,3,4,5,10};
+		int summ=0;
+		for(int i=0;i<ar.length;i++) {
+			summ+=ar[i];
+		}
+		System.out.println(summ);
 
 	}
 
