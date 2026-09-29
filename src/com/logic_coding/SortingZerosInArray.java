@@ -34,7 +34,7 @@ public class SortingZerosInArray {
 		lt.toArray();
 
 		// same program without using for loop
-
+		
 		Integer[] arr = { 29, 12, 2, 0, 0, 5, 0, 49, 0, 2 };
 		Arrays.sort(arr); // {0,0,0,0,2,2,5,12,29,49}
 		//System.out.println(arr);
