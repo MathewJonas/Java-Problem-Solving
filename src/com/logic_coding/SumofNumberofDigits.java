@@ -27,6 +27,9 @@ public class SumofNumberofDigits {
 			summ+=ar[i];
 		}
 		System.out.println(summ);
+		
+		
+		
 
 	}
 
