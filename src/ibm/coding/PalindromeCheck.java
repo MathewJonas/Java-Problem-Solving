@@ -16,6 +16,11 @@ public class PalindromeCheck {
 		else {
 			System.out.println("Not a pallindrome");
 		}
+		
+		//reverse string by preserving white spaces
+		
+		String s2 = "Build your Logics";
+		
 	}
 
 }

@@ -16,13 +16,13 @@ public class ReverseString {
 
 		// reverse a string by preserving the spaces
 		String str1 = "Automation is fun";
-		char[] ar1 = str.toLowerCase().toCharArray();
-		String reverse = " ";
+		char[] ar1 = str1.toLowerCase().toCharArray();
+		String reverse = "";
 		for (int i = ar.length - 1; i >= 0; i--) {
-			reverse = rev + ar[i];
+			reverse = reverse + ar[i];
 
 		}
-		System.out.println("reversed sentence is: " + rev);
+		System.out.println("reversed sentence is: " + reverse);
 
 		// reverse a string by preserving the spaces and words order but reversing the
 		// words
